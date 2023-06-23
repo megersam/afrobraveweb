@@ -16,6 +16,12 @@ const productSchema = new mongoose.Schema({
   tags: {
     type: String,
   },
+  adescription: {
+    type: String,
+  },
+  course: {
+    type: String,
+  },
   originalPrice: {
     type: Number,
   },

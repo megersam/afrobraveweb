@@ -1,17 +1,17 @@
 {
-  "name": "e-shop-tutorial",
+  "name": "afrobrave",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "type": "module",
   "engines": {
     "node": "18.10.0"
   },
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "node server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false"
+    "start": "node server.js"
   },
-  "author": "shahriar Sajeeb",
+  "author": "Megersa",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
